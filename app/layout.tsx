@@ -17,12 +17,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  params: { locale }
+  params: { locale },
 }: {
   children: ReactNode;
   params: { locale: string };
 }) {
-
   return (
     <html lang="en">
       <head>
@@ -70,9 +69,12 @@ export default function RootLayout({
       <body id="__next" className={inter.className}>
         <GlobalCssPriority>
           <ThemeProvider theme={theme}>
-            <div suppressHydrationWarning={true}>
+            <main
+              className="w-full h-full relative"
+              suppressHydrationWarning={true}
+            >
               <SuspenseLayout>{children}</SuspenseLayout>
-            </div>
+            </main>
           </ThemeProvider>
         </GlobalCssPriority>
       </body>
