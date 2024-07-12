@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "type": "SUV",
+      "model": "XC60 Recharge",
+      "variant": "plug-in hybrid",
+      "imageUrl": "/assets/images/descriptive_0.jpg",
+      "learn": "/cars/xc60",
+      "shop": "/v/cars/xc60/shop"
+    },
+    {
+      "type": "SUV",
+      "model": "XC40 Recharge",
+      "variant": "plug-in hybrid",
+      "imageUrl": "/assets/images/descriptive_1.jpg",
+      "learn": "/cars/xc60",
+      "shop": "/v/cars/xc60/shop"
+    },
+    {
+      "type": "SUV",
+      "model": "XC40 Recharge",
+      "variant": "pure electric",
+      "imageUrl": "/assets/images/descriptive_2.jpg",
+      "learn": "/cars/xc60",
+      "shop": "/v/cars/xc60/shop"
+    },
+    {
+      "type": "ESTATE",
+      "model": "V90 Recharge",
+      "variant": "plug-in hybrid",
+      "imageUrl": "/assets/images/descriptive_5.jpg",
+      "learn": "/cars/xc60",
+      "shop": "/v/cars/xc60/shop"
+    },
+    {
+      "type": "SEDAN",
+      "model": "XC90 Recharge",
+      "variant": "plug-in hybrid",
+      "imageUrl": "/assets/images/descriptive_3.jpg",
+      "learn": "/cars/xc60",
+      "shop": "/v/cars/xc60/shop"
+    }
+  ]
+}
